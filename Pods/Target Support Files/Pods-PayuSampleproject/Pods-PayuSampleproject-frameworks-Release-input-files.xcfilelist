@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-PayuSampleproject/Pods-PayuSampleproject-frameworks.sh
+${PODS_ROOT}/PayUIndia-AssetLibrary/PayUAssetLibraryKit/PayUAssetLibraryKit.framework
+${PODS_ROOT}/PayUIndia-CheckoutPro/PayUCheckoutProKit/PayUCheckoutProKit.framework
+${PODS_ROOT}/PayUIndia-CheckoutProBase/PayUCheckoutProBaseKit/PayUCheckoutProBaseKit.framework
+${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework
+${PODS_ROOT}/PayUIndia-Logger/Dependencies/PayULoggerKit.framework
+${PODS_ROOT}/PayUIndia-Networking/Dependencies/PayUNetworkingKit.framework
+${PODS_ROOT}/PayUIndia-PG-SDK/PayUBizCoreKit.framework
+${PODS_ROOT}/PayUIndia-PayUParams/PayUParamsKit/PayUParamsKit.framework
+${PODS_ROOT}/PayUIndia-UPICore/Dependencies/PayUUPICoreKit.framework
+${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
