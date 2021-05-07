@@ -181,11 +181,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework"
   install_framework "${PODS_ROOT}/PayUIndia-Logger/Dependencies/PayULoggerKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-Networking/Dependencies/PayUNetworkingKit.framework"
-  install_framework "${PODS_ROOT}/PayUIndia-PG-SDK/PayUBizCoreKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-PayUParams/PayUParamsKit/PayUParamsKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-UPICore/Dependencies/PayUUPICoreKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUBizCoreKit/PayUBizCoreKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/PayUIndia-AssetLibrary/PayUAssetLibraryKit/PayUAssetLibraryKit.framework"
@@ -194,11 +194,11 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/PayUIndia-Custom-Browser/PayUCustomBrowser.framework"
   install_framework "${PODS_ROOT}/PayUIndia-Logger/Dependencies/PayULoggerKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-Networking/Dependencies/PayUNetworkingKit.framework"
-  install_framework "${PODS_ROOT}/PayUIndia-PG-SDK/PayUBizCoreKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-PayUParams/PayUParamsKit/PayUParamsKit.framework"
   install_framework "${PODS_ROOT}/PayUIndia-UPICore/Dependencies/PayUUPICoreKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/PayUBizCoreKit/PayUBizCoreKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

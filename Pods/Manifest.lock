@@ -1,19 +1,19 @@
 PODS:
   - PayUIndia-AssetLibrary (2.1.0)
-  - PayUIndia-CheckoutPro (2.2.0):
+  - PayUIndia-CheckoutPro (2.2.1):
     - PayUIndia-AssetLibrary (~> 2.1)
-    - PayUIndia-CheckoutProBase (~> 2.2)
+    - PayUIndia-CheckoutProBase (~> 2.2.1)
     - PayUIndia-Custom-Browser (~> 6.0)
-    - PayUIndia-PG-SDK (~> 5.3)
+    - PayUIndia-PG-SDK (~> 6.0)
     - PayUIndia-UPICore (~> 4.0)
-  - PayUIndia-CheckoutProBase (2.2.0):
+  - PayUIndia-CheckoutProBase (2.2.1):
     - PayUIndia-PayUParams (= 1.0.0)
   - PayUIndia-Custom-Browser (6.1.1)
   - PayUIndia-Logger (2.0.1)
   - PayUIndia-Networking (2.0.1):
     - PayUIndia-Logger (= 2.0.1)
   - PayUIndia-PayUParams (1.0.0)
-  - PayUIndia-PG-SDK (5.3.0):
+  - PayUIndia-PG-SDK (6.0.0):
     - PayUIndia-PayUParams (= 1.0.0)
   - PayUIndia-UPICore (4.0.0):
     - PayUIndia-Networking (~> 2.0)
@@ -23,7 +23,7 @@ PODS:
   - Starscream (3.1.1)
 
 DEPENDENCIES:
-  - PayUIndia-CheckoutPro (= 2.2.0)
+  - PayUIndia-CheckoutPro
 
 SPEC REPOS:
   trunk:
@@ -41,17 +41,17 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   PayUIndia-AssetLibrary: 187c688225686a1cb329d3f239339b9e96c9017e
-  PayUIndia-CheckoutPro: e1e84b0ef82243e275b5e65c4f53e94fcd78adc6
-  PayUIndia-CheckoutProBase: c34e8085c281edc3144c9eb5f4021f57b63ac2d6
+  PayUIndia-CheckoutPro: e92aa37f5b43a2719d0aacead1c49a29146af7c0
+  PayUIndia-CheckoutProBase: 276d836728900ded45ce286dace5c40473013339
   PayUIndia-Custom-Browser: e251cb87d41a343f5810faebe23f8edccf91a580
   PayUIndia-Logger: 818c08ae963753d86ff89682daf3ced672896b1c
   PayUIndia-Networking: 355cde94811c667e1da83aa7ebe0b38e0c918b9f
   PayUIndia-PayUParams: 6a8ce1984f53179e6f5fa8b06c9aa3e9007bfff2
-  PayUIndia-PG-SDK: 077a0653b92d7f1789af011134679b1fb211c0fe
+  PayUIndia-PG-SDK: d36fd0c9631d345b651b0c0f1578845a237f9073
   PayUIndia-UPICore: 3c9281c94b00f7c896b40a2cd180466bf1dd8015
   Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: 3816b416b5205e641a6ecd7f53b5c168cc62cbc6
+PODFILE CHECKSUM: 606dae188b7f7afd3e5c8260f209aeaba8571ec1
 
 COCOAPODS: 1.10.1

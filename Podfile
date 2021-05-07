@@ -6,6 +6,6 @@ target 'PayuSampleproject' do
   use_frameworks!
 
   # Pods for PayuSampleproject
-pod 'PayUIndia-CheckoutPro', '2.2.0'
+pod 'PayUIndia-CheckoutPro'
 
 end
